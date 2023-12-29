@@ -1,0 +1,122 @@
+.form{
+    height: 650px;
+    width: 450px;
+    background-color: #1a73e8;
+    margin: 100px 50px;
+    border-radius: 20px;
+}
+.form-inside{
+    margin: 30px;
+    width: 390px;
+}
+.need{
+    color:#e2eaf6;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.pro{
+    text-align: left;
+    margin-left: 50px;
+    color:#e2eaf6;
+    font-size: 15px;
+}
+.textarea{
+    height: 100px;
+    
+}
+
+  
+  .login-title {
+    padding: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    padding: 150px;
+  }
+  
+  .login-form {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 26px;
+    width: 200px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .login-form input {
+    width: 90%;
+    padding: 0.7rem;
+    border-radius: 9px;
+    border: none;
+  }
+  
+  .login-form input:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px rgba(253, 242, 233, 0.5);
+  }
+  
+  .btn--form {
+    color: #333333;
+    align-self: start;
+    padding: 10px;
+    width: 350px;
+    margin: 15px;
+  }
+  
+  .btn,
+  .btn:link,
+  .btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-size:15px;
+    font-weight: 450;
+    border-radius: 9px;
+    border: none;
+  
+    cursor: pointer;
+    font-family: inherit;
+  
+    transition: all 0.3s;
+  }
+  
+  .btn--form:hover {
+    background-color: #fdf2e9;
+    color: #f48982;
+  }
+  input[type=text] {
+    background-color: white;
+    color: #666666;
+    background-image: url('/public/Images/user-solid.svg');
+    background-position: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+  input[type=email] {
+    background-color: white;
+    color: #666666;
+    background-image: url('/public/Images/envelope-solid.svg');
+    background-position: 15px 18px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+  input[type=subject] {
+    background-color: white;
+    color: #666666;
+    background-image: url('/public/Images/tag-solid.svg');
+    background-position: 15px 18px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+  input[type=textarea] {
+    background-color: white;
+    color: #666666;
+    background-image: url('/public/Images/square-pen-solid.svg');
+    background-position: 15px 40px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }

@@ -1,0 +1,88 @@
+
+.container{
+    position:sticky;
+    top:0;
+    margin: 0;
+    max-width: 100%;
+    z-index:100;
+    background-color: #17478d;
+  }
+  
+  .header {
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc; 
+  }
+  
+  .scrolled{
+    display: none;
+  }
+  
+  .header-top {
+    display: flex;
+    justify-content:right;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 10px;
+    
+  }
+  
+  .mail-container {
+    width: 40%;
+    margin-left: 800px;
+  }
+  
+  .envelop{
+      color: #fff;
+      font-size: 15px;
+      margin: -2px 8px;
+  }
+  
+  .icon-container {
+    width: 10%;
+    font-size: large;
+  }
+  
+  .topbar {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    margin-right: 43px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  
+  .logo {
+    font-weight: 700;
+    color: #17478d;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+  
+  .nav-links a:hover  {
+    color: #17478d;
+    border-bottom: 3px solid #17478d;
+    
+  }
+  
+  .nav-links a:checked  {
+      color: orangered; 
+      text-decoration: underline;
+      color: #17478d;
+    }

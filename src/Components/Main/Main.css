@@ -1,0 +1,48 @@
+.main-outer{
+    height: 400px;
+    width: 100%;
+    background-image: url('/public/Images/Background.webp');
+    background-size: 100% 100%;
+}
+.main{
+    text-align: left;
+    padding: 100px 180px;
+}
+.home-contact{
+    color: #333333;
+}
+.below-contact{
+    font-size: 16px;
+}
+.contact-us{
+    font-size: 50px;
+}
+.lets{
+    text-align: left;
+}
+.proo{
+    text-align: left;
+    margin-top: -7px;
+}
+.logos{
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 30px;
+    
+}
+.main-cards{
+    padding: 200px 0px 100px 200px;
+}
+.envelope{
+    background-color: #1a73e8;
+    color: #fff;
+    height: 40px;
+    width: 45px;
+    padding: 15px;
+    margin: -2px 8px;
+    border-radius: 8px;
+}
+.cards{
+    display: flex;
+    
+}
